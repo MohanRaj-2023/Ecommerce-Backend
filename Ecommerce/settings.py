@@ -49,7 +49,6 @@ INSTALLED_APPS = [
     "django_filters",
 ]
 
-INSTALLED_APPS += ['corsheaders']
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
