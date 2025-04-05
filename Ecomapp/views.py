@@ -101,7 +101,7 @@ class UserSignupView(APIView):
                 "activate.html",
                 {
                     'user':user,
-                    'domain':'127.0.0.1:8000',
+                    'domain':'https://ecommerce-backend-szaj.onrender.com',
                     'user_id':urlsafe_base64_encode(force_bytes(user.pk)),
                     'token':generate_token.make_token(user)
                 }
